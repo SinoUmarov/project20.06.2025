@@ -63,7 +63,7 @@ export default function Header({ mode, setMode }) {
           ))}
         </Box>
 
-        <Tooltip title="Сменить тему">
+        <Tooltip >
           <IconButton onClick={toggleTheme} color="inherit" sx={{ ml: 2 }}>
             {mode === "dark" ? <Brightness7Icon /> : <Brightness4Icon />}
           </IconButton>
